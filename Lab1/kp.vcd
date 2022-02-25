@@ -1,0 +1,208 @@
+$date
+	Thu Feb  4 09:56:09 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module keypad_test $end
+$var wire 1 ! valid $end
+$var wire 4 " number [3:0] $end
+$var wire 7 # inputs [6:0] $end
+$var reg 1 $ a $end
+$var reg 1 % b $end
+$var reg 1 & c $end
+$var reg 1 ' d $end
+$var reg 1 ( e $end
+$var reg 1 ) f $end
+$var reg 1 * g $end
+$scope module kp $end
+$var wire 1 $ a $end
+$var wire 1 % b $end
+$var wire 1 & c $end
+$var wire 1 ' d $end
+$var wire 1 ( e $end
+$var wire 1 ) f $end
+$var wire 1 * g $end
+$var wire 1 ! valid $end
+$var wire 1 + w1 $end
+$var wire 1 , w10 $end
+$var wire 1 - w11 $end
+$var wire 1 . w12 $end
+$var wire 1 / w13 $end
+$var wire 1 0 w14 $end
+$var wire 1 1 w15 $end
+$var wire 1 2 w16 $end
+$var wire 1 3 w2 $end
+$var wire 1 4 w3 $end
+$var wire 1 5 w4 $end
+$var wire 1 6 w5 $end
+$var wire 1 7 w6 $end
+$var wire 1 8 w7 $end
+$var wire 1 9 w8 $end
+$var wire 1 : w9 $end
+$var wire 4 ; number [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 ;
+0:
+09
+08
+07
+06
+05
+04
+03
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+b0 #
+b0 "
+0!
+$end
+#10
+1!
+13
+b1 "
+b1 ;
+1+
+14
+18
+17
+1'
+b1001000 #
+1$
+#20
+b10 "
+b10 ;
+1-
+08
+15
+1,
+03
+07
+1%
+b101000 #
+0$
+#30
+b11 "
+b11 ;
+18
+16
+17
+05
+1&
+b11000 #
+0%
+#40
+b100 "
+b100 ;
+13
+08
+0-
+06
+0,
+1(
+1$
+0'
+b1000100 #
+0&
+#50
+15
+1,
+03
+07
+1%
+b100100 #
+0$
+#60
+b110 "
+b110 ;
+16
+17
+1.
+05
+1&
+b10100 #
+0%
+#70
+19
+13
+1/
+10
+b111 "
+b111 ;
+06
+0,
+0.
+1)
+1$
+0(
+b1000010 #
+0&
+#80
+09
+b1000 "
+b1000 ;
+15
+1,
+11
+03
+07
+0/
+00
+1%
+b100010 #
+0$
+#90
+b1001 "
+b1001 ;
+19
+16
+17
+12
+05
+01
+1&
+b10010 #
+0%
+#100
+b0 "
+b0 ;
+15
+0+
+09
+06
+07
+02
+1*
+1%
+0)
+b100001 #
+0&
+#110
+0!
+04
+05
+0,
+0*
+b0 #
+0%
+#120
